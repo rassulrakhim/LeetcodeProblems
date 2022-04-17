@@ -1,12 +1,13 @@
+import kotlin.test.assertEquals
+
 /**
  * @author r.rakhim
  * @date 15.04.2022
- * https://leetcode.com/problems/roman-to-integer/
  */
 
 
 /**
- * Readable
+ * https://leetcode.com/problems/roman-to-integer/
  */
 fun romanToInt(s: String): Int {
     val m = mapOf(
@@ -36,6 +37,11 @@ fun romanToInt(s: String): Int {
 }
 
 
+const val FIFTY_FOUR_ROMAN = "LIV"
+const val THOUSEND_NINE_HUNDRED_NINTY_FOUR = "MCMXCIV"
+
 fun main() {
-    println(romanToInt("LIV"))
+    assertEquals(romanToInt(FIFTY_FOUR_ROMAN), 54)
+    assertEquals(romanToInt(THOUSEND_NINE_HUNDRED_NINTY_FOUR), 1994)
 }
+
