@@ -1,12 +1,9 @@
 import kotlin.test.assertEquals
 
+
 /**
  * @author r.rakhim
- * @date 15.04.2022
- */
-
-
-/**
+ * @date 18.04.2022
  * https://leetcode.com/problems/roman-to-integer/
  */
 fun romanToInt(s: String): Int {

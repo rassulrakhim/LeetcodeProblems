@@ -1,13 +1,10 @@
 import kotlin.test.assertFalse
 import kotlin.test.assertTrue
 
+
 /**
  * @author r.rakhim
- * @date 17.04.2022
- */
-
-
-/**
+ * @date 18.04.2022
  *  https://leetcode.com/problems/ransom-note/
  *
  */
